@@ -1,6 +1,7 @@
 import PostPageLayout from "../../../components/PostPageLayout";
-import exampleGif from "./example.gif";
-import installGif from "./install.gif";
+import exampleGif from "../../../public/keep-your-css-cool-with-csscomb/example.gif";
+import installGif from  "../../../public/keep-your-css-cool-with-csscomb/install.gif";
+import Image from "next/image";
 
 export const meta = {
   isPublished: false,
@@ -21,7 +22,7 @@ _Note: I use VS Code on macOS. However, these same principles apply to other tex
 
 Installing CSScomb is very easy. See below.
 
-<img alt="How to install CSScomb" src={installGif} />
+<Image width={800} height={400} alt="How to install CSScomb" src={installGif} />
 
 ## Create a custom config file
 
@@ -44,6 +45,6 @@ Now, let's put this file to use:
 
 Open the command palette by navigating to **View** > **Command Palette...** or press `Shift` + `⌘` + `P`. In the command palette window, type `format` and click **CSSComb: Format Styles**.
 
-<img alt="How to use CSScomb" src={exampleGif} />
+<Image alt="How to use CSScomb" src={exampleGif} width={800} height={400} />
 
 There you have it! If you anything is unclear or you just want to say hey, shoot me a message on Twitter ([@tayl_rbryant](https://twitter.com/tayl_rbryant)).
