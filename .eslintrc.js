@@ -32,7 +32,6 @@ module.exports = {
     `airbnb/hooks`,
     `plugin:mdx/recommended`,
     `plugin:prettier/recommended`,
-    `prettier/react`,
   ],
   env: {
     browser: true,
@@ -67,8 +66,6 @@ module.exports = {
         `plugin:@typescript-eslint/recommended`,
         `plugin:@typescript-eslint/recommended-requiring-type-checking`,
         `plugin:prettier/recommended`,
-        `prettier/@typescript-eslint`,
-        `prettier/react`,
       ],
       files: [`**/*.ts`, `**/*.tsx`],
       parser: `@typescript-eslint/parser`,
